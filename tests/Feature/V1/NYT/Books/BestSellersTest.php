@@ -25,7 +25,7 @@ class BestSellersTest extends BooksTestCase
      * @covers \App\Http\Requests\Api\V1\NYT\Books\BestSellersRequest
      * @covers \App\Support\DataTransferObjects\NYT\Books\BestSellersFilters
      */
-    public function itReturnsTheCorrectData()
+    public function itReturnsSuccessResponseWithTheCorrectData()
     {
         $this->fakeSuccesfullGetBestSellers();
 
